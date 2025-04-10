@@ -1,0 +1,7 @@
+[database]
+host=imis-google-scholar-alert-mongodb-1
+port=27017
+
+[rabbitmq]
+host=rabbitmq
+port=5672
