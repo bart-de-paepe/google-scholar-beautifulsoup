@@ -17,5 +17,5 @@ class SearchResult(Entity):
         super().__init__()
 
     def set_date(self, date):
-        if date.isnumeric():
+        if date is not None and date.isnumeric():
             self.date = date
